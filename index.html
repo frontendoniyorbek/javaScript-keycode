@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KeyboardEvents Info</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="styales.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="site-header__container container">
+				<a class="logo" href="/">
+					<img src="img/dr_key.png" alt="img keybordd" width="180" height="150" />
+				</a>
+				<a class="btn" href="https://github.com/frontendoniyorbek" target="_blank">GitHub</a>
+			</div>
+		</header>
+
+		<!-- MAIN -->
+		<main class="main-content">
+			<div class="container">
+				<h1 class="site-title">JavaScript Key Code <span class="keyCode"></span></h1>
+				<div class="event">
+					<ul class="event__list">
+						<li class="event__item">
+							<div class="event__top">event.key</div>
+							<div class="event__title"></div>
+							<div class="event__text">
+								The value of the key pressed. Accounts for modifiers keys that return CAPS and alternate chars.
+							</div>
+						</li>
+
+						<li class="event__item">
+							<div class="event__top">event.location</div>
+							<div class="event__title event__location"></div>
+							<div class="event__text">
+								Some keys exist more than once on your keyboard. This provides the location of the key pressed. Try it with both
+								shifts.
+							</div>
+						</li>
+
+						<li class="event__item">
+							<div class="event__top">event.code</div>
+							<div class="event__title event__code"></div>
+							<div class="event__text">
+								The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.
+							</div>
+						</li>
+						<li class="event__item">
+							<div class="event__top">event.which</div>
+							<div class="event__title event__which"></div>
+							<div class="event__text">
+								event.which and event.keyCode are deprecated in modern browsers. Use .key or .code instead.
+							</div>
+						</li>
+						<li class="event__item">
+							<div class="event__top">event.code</div>
+							<div class="event__title event__code"></div>
+							<div class="event__text">
+								The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.
+							</div>
+						</li>
+						<li class="event__item">
+							<div class="event__top">event.code</div>
+							<div class="event__title event__code"></div>
+							<div class="event__text">
+								The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<footer class="site-footer">
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ducimus tenetur nihil dignissimos quisquam tempora
+				fugiat quia vero quod minima praesentium sed odit itaque aliquam nesciunt mollitia, quae, eligendi aut.
+			</p>
+		</footer>
+		<div class="modal">
+			Press any key to get the <br />
+			JavaScript event keycode info
+		</div>
+		<!-- JS -->
+		<script src="main.js"></script>
+	</body>
+</html>
