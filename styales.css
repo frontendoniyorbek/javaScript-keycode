@@ -72,6 +72,12 @@ body {
 	background-color: blue;
 }
 
+.site-footer p {
+	font-size: 36px;
+	color: white;
+	text-shadow: 1px 4px 2px rgba(103, 223, 24, 0.852);
+}
+
 /* MODAL */
 .modal {
 	position: fixed;
@@ -108,6 +114,11 @@ body {
 }
 
 .event__item {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
 	max-width: 220px;
 	width: 100%;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
