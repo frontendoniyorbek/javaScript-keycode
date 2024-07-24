@@ -72,7 +72,14 @@ body {
 	background-color: blue;
 }
 
-.site-footer p {
+.site-footer__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-footer p,
+.site-footer a {
 	font-size: 36px;
 	color: white;
 	text-shadow: 1px 4px 2px rgba(103, 223, 24, 0.852);
